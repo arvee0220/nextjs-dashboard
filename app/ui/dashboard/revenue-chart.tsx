@@ -11,7 +11,7 @@ import { lusitana } from "../fonts";
 
 export default async function RevenueChart({ revenue }: { revenue: Revenue[] }) {
     const chartHeight = 350;
-    // NOTE: Uncomment this code in Chapter 7
+    
 
     const { yAxisLabels, topLabel } = generateYAxis(revenue);
 
